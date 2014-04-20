@@ -1,0 +1,28 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font: 14px/1 "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.excerpt {
+	background: white;
+	color: #33333d;
+	margin: 0 125px 20px 20px;
+}
+
+.jump {
+	top: 20px;
+	right: 0;
+	position: fixed;
+	background: black;
+	color: white;
+	text-align: center;
+	padding-bottom: 1px;
+}
+
+img {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
